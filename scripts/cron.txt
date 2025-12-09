@@ -1,0 +1,4 @@
+# m h  dom mon dow   command
+* * * * * cd /home/ubuntu/surya/exam_Alla/exam_bash && ./scripts/collect.sh
+* * * * * cd /home/ubuntu/surya/exam_Alla/exam_bash && ./scripts/preprocessed.sh
+* * * * * cd /home/ubuntu/surya/exam_Alla/exam_bash && ./scripts/train.sh

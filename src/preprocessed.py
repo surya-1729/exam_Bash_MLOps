@@ -15,3 +15,45 @@ in the 'data/raw/' directory.
 Any errors or anomalies are also logged to ensure traceability.
 -------------------------------------------------------------------------------
 """
+import pandas as pd
+import glob
+import os
+from datetime import datetime
+
+# Directories
+RAW_DIR = "data/raw/"
+PROCESSED_DIR = "data/processed/"
+
+# Ensure processed directory exists
+os.makedirs(PROCESSED_DIR, exist_ok=True)
+
+# Get the latest CSV file from raw data
+raw_files = sorted(glob.glob(RAW_DIR + "*.csv"))
+if not raw_files:
+    raise FileNotFoundError("No raw CSV files found in data/raw/")
+latest_file = raw_files[-1]
+
+# Load raw CSV
+df = pd.read_csv(latest_file)
+
+# -------------------------
+# Preprocessing
+# -------------------------
+
+# Drop rows where 'sales' is missing or empty
+df = df.dropna(subset=['sales'])
+
+# Ensure 'sales' is integer
+df['sales'] = df['sales'].astype(int)
+
+# Optional: convert timestamp to datetime for further feature engineering
+# df['timestamp'] = pd.to_datetime(df['timestamp'])
+
+# Save preprocessed CSV with timestamped filename
+processed_filename = os.path.join(
+    PROCESSED_DIR,
+    f"sales_processed_{datetime.now().strftime('%Y%m%d_%H%M')}.csv"
+)
+df.to_csv(processed_filename, index=False)
+
+print(f"Saved preprocessed file: {processed_filename}")
