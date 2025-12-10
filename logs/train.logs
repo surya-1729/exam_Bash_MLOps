@@ -1,123 +1,18 @@
-[2025-12-09 16:48:46] Starting model training
-Traceback (most recent call last):
-  File "/home/ubuntu/surya/exam_Alla/exam_bash/src/train.py", line 37, in <module>
-    raise FileNotFoundError(f"No preprocessed CSV files found in {PROCESSED_DIR}")
-FileNotFoundError: No preprocessed CSV files found in ../data/processed
-[2025-12-09 16:48:48] Training completed
-[2025-12-09 16:50:25] Starting model training
-Traceback (most recent call last):
-  File "/home/ubuntu/surya/exam_Alla/exam_bash/src/train.py", line 37, in <module>
-    raise FileNotFoundError(f"No preprocessed CSV files found in {PROCESSED_DIR}")
-FileNotFoundError: No preprocessed CSV files found in ../data/processed
-[2025-12-09 16:50:27] Training completed
-[2025-12-09 16:52:04] Starting model training
-Traceback (most recent call last):
-  File "/home/ubuntu/surya/exam_Alla/exam_bash/src/train.py", line 37, in <module>
-    raise FileNotFoundError(f"No preprocessed CSV files found in {PROCESSED_DIR}")
-FileNotFoundError: No preprocessed CSV files found in ../data/processed
-[2025-12-09 16:52:06] Training completed
-[2025-12-09 16:53:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 16:53:01] Training completed
-[2025-12-09 16:54:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 16:54:01] Training completed
-[2025-12-09 16:55:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 16:55:01] Training completed
-[2025-12-09 16:56:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 16:56:01] Training completed
-[2025-12-09 16:57:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 16:57:01] Training completed
-[2025-12-09 16:58:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 16:58:01] Training completed
-[2025-12-09 16:59:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 16:59:01] Training completed
-[2025-12-09 17:00:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:00:01] Training completed
-[2025-12-09 17:02:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:02:01] Training completed
-[2025-12-09 17:03:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:03:01] Training completed
-[2025-12-09 17:04:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:04:01] Training completed
-[2025-12-09 17:05:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:05:01] Training completed
-[2025-12-09 17:06:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:06:01] Training completed
-[2025-12-09 17:07:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:07:01] Training completed
-[2025-12-09 17:08:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:08:01] Training completed
-[2025-12-09 17:09:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:09:01] Training completed
-[2025-12-09 17:10:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 17:10:01] Training completed
-[2025-12-09 18:24:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:24:01] Training completed
-[2025-12-09 18:25:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:25:01] Training completed
-[2025-12-09 18:26:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:26:01] Training completed
-[2025-12-09 18:27:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:27:01] Training completed
-[2025-12-09 18:29:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:29:01] Training completed
-[2025-12-09 18:30:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:30:01] Training completed
-[2025-12-09 18:31:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:31:02] Training completed
-[2025-12-09 18:32:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:32:01] Training completed
-[2025-12-09 18:33:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:33:01] Training completed
-[2025-12-09 18:34:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:34:01] Training completed
-[2025-12-09 18:35:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:35:01] Training completed
-[2025-12-09 18:36:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:36:01] Training completed
-[2025-12-09 18:37:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:37:01] Training completed
-[2025-12-09 18:38:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:38:01] Training completed
-[2025-12-09 18:39:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:39:01] Training completed
-[2025-12-09 18:40:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:40:01] Training completed
-[2025-12-09 18:41:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:41:01] Training completed
-[2025-12-09 18:42:01] Starting model training
-./scripts/train.sh: line 22: uv: command not found
-[2025-12-09 18:42:01] Training completed
+[2025-12-10 21:23:58] Script started
+Resolved 19 packages in 26ms
+Audited 17 packages in 0.42ms
+/home/ubuntu/surya/exam_Alla/exam_bash/.venv/lib/python3.12/site-packages/sklearn/metrics/_regression.py:1283: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+Using latest preprocessed file: data/processed/sales_processed_20251210_2123.csv
+RMSE: 0.67, MAE: 0.67, R2: nan
+Model saved to model/model.pkl
+[2025-12-10 21:24:00] Script completed successfully
+[2025-12-10 21:24:34] Script started
+Resolved 19 packages in 31ms
+Audited 17 packages in 0.35ms
+/home/ubuntu/surya/exam_Alla/exam_bash/.venv/lib/python3.12/site-packages/sklearn/metrics/_regression.py:1283: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+Using latest preprocessed file: data/processed/sales_processed_20251210_2124.csv
+RMSE: 5.01, MAE: 5.01, R2: nan
+Model saved to model/model_20251210_2024.pkl
+[2025-12-10 21:24:36] Script completed successfully
