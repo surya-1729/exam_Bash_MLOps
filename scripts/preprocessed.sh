@@ -14,18 +14,26 @@ log_message() {
     echo "[$(date -d '+1 hour' '+%Y-%m-%d %H:%M:%S')] $1" >> "$LOG_FILE"
 }
 
-# Make sure dependencies are installed (user-level, no venv)
-python3 -m pip install --upgrade --user pip >> "$LOG_FILE" 2>&1
-python3 -m pip install --user -r requirements.txt >> "$LOG_FILE" 2>&1
+# Set PATH to include common binary locations
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$HOME/.local/bin:$PATH"
 
-uv venv .venv >> "$LOG_FILE" 2>&1
+# Log script start
+log_message "Script started"
+
+# Sync project and activate virtual environment
+uv sync >> "$LOG_FILE" 2>&1
 source .venv/bin/activate >> "$LOG_FILE" 2>&1
-uv add -r requirements.txt >> "$LOG_FILE" 2>&1
 
 # Run the preprocessing script and log output
-uv run which python >> "$LOG_FILE" 2>&1
-uv run python src/preprocessed.py >> "$LOG_FILE" 2>&1
+python src/preprocessed.py >> "$LOG_FILE" 2>&1
+
+# Check exit status
+if [ $? -eq 0 ]; then
+    log_message "Script completed successfully"
+else
+    log_message "Script failed with exit code $?"
+fi
 
 # Completion message
 echo "Preprocessing complete. Logs saved to $LOG_FILE"
-echo "-------------------------------------------------------" 
+echo "-------------------------------------------------------"

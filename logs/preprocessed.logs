@@ -8,3 +8,91 @@ Resolved 19 packages in 25ms
 Audited 17 packages in 0.37ms
 Saved preprocessed file: data/processed/sales_processed_20251210_2124.csv
 [2025-12-10 21:24:34] Script completed successfully
+[2025-12-11 13:32:35] Script started
+Resolved 19 packages in 24ms
+Audited 17 packages in 0.34ms
+[2025-12-11 13:32:35] Starting preprocessing...
+[2025-12-11 13:32:35] Processing file: data/raw/sales_20251211_1332.csv
+[2025-12-11 13:32:35] Loaded 5 rows with columns: ['timestamp', 'model', 'sales']
+[2025-12-11 13:32:35] Dropped 'timestamp' column
+[2025-12-11 13:32:35] After dropping NaN sales: 0 rows
+[2025-12-11 13:32:35] Converted 'sales' to integer type
+[2025-12-11 13:32:35] Final preprocessed data: 0 rows, columns: ['model', 'sales']
+[2025-12-11 13:32:35] Saved preprocessed file: data/processed/sales_processed_20251211_1332.csv
+Starting preprocessing...
+Processing file: data/raw/sales_20251211_1332.csv
+Loaded 5 rows with columns: ['timestamp', 'model', 'sales']
+Dropped 'timestamp' column
+After dropping NaN sales: 0 rows
+Converted 'sales' to integer type
+Final preprocessed data: 0 rows, columns: ['model', 'sales']
+Saved preprocessed file: data/processed/sales_processed_20251211_1332.csv
+✓ Preprocessing complete: data/processed/sales_processed_20251211_1332.csv
+[2025-12-11 13:32:35] Script completed successfully
+[2025-12-11 13:33:40] Script started
+Resolved 19 packages in 24ms
+Audited 17 packages in 0.37ms
+[2025-12-11 13:33:40] Starting preprocessing...
+[2025-12-11 13:33:40] Processing file: data/raw/sales_20251211_1333.csv
+[2025-12-11 13:33:40] Loaded 5 rows with columns: ['timestamp', 'model', 'sales']
+[2025-12-11 13:33:40] Dropped 'timestamp' column
+[2025-12-11 13:33:40] After dropping NaN sales: 5 rows
+[2025-12-11 13:33:40] Converted 'sales' to integer type
+[2025-12-11 13:33:40] Final preprocessed data: 5 rows, columns: ['model', 'sales']
+[2025-12-11 13:33:40] Saved preprocessed file: data/processed/sales_processed_20251211_1333.csv
+Starting preprocessing...
+Processing file: data/raw/sales_20251211_1333.csv
+Loaded 5 rows with columns: ['timestamp', 'model', 'sales']
+Dropped 'timestamp' column
+After dropping NaN sales: 5 rows
+Converted 'sales' to integer type
+Final preprocessed data: 5 rows, columns: ['model', 'sales']
+Saved preprocessed file: data/processed/sales_processed_20251211_1333.csv
+✓ Preprocessing complete: data/processed/sales_processed_20251211_1333.csv
+[2025-12-11 13:33:41] Script completed successfully
+[2025-12-11 13:33:44] Script started
+Resolved 19 packages in 23ms
+Audited 17 packages in 0.34ms
+[2025-12-11 13:33:45] Starting preprocessing...
+[2025-12-11 13:33:45] Processing file: data/raw/sales_20251211_1333.csv
+[2025-12-11 13:33:45] Loaded 5 rows with columns: ['timestamp', 'model', 'sales']
+[2025-12-11 13:33:45] Dropped 'timestamp' column
+[2025-12-11 13:33:45] After dropping NaN sales: 5 rows
+[2025-12-11 13:33:45] Converted 'sales' to integer type
+[2025-12-11 13:33:45] Final preprocessed data: 5 rows, columns: ['model', 'sales']
+[2025-12-11 13:33:45] Saved preprocessed file: data/processed/sales_processed_20251211_1333.csv
+Starting preprocessing...
+Processing file: data/raw/sales_20251211_1333.csv
+Loaded 5 rows with columns: ['timestamp', 'model', 'sales']
+Dropped 'timestamp' column
+After dropping NaN sales: 5 rows
+Converted 'sales' to integer type
+Final preprocessed data: 5 rows, columns: ['model', 'sales']
+Saved preprocessed file: data/processed/sales_processed_20251211_1333.csv
+✓ Preprocessing complete: data/processed/sales_processed_20251211_1333.csv
+[2025-12-11 13:33:45] Script completed successfully
+[2025-12-11 13:46:29] Script started
+Resolved 19 packages in 34ms
+Audited 17 packages in 0.48ms
+[2025-12-11 13:46:29] Starting preprocessing...
+[2025-12-11 13:46:29] Processing file: data/raw/sales_20251211_1346.csv
+[2025-12-11 13:46:29] Loaded 5 rows with columns: ['timestamp', 'model', 'sales']
+[2025-12-11 13:46:29] Dropped 'timestamp' column
+[2025-12-11 13:46:29] After dropping NaN sales: 5 rows
+[2025-12-11 13:46:29] Encoded 'model' column as integer
+[2025-12-11 13:46:29] All columns are integer type: True
+[2025-12-11 13:46:29] Final preprocessed data: 5 rows, columns: ['model', 'sales']
+[2025-12-11 13:46:29] Column types: {'model': dtype('int8'), 'sales': dtype('int64')}
+[2025-12-11 13:46:29] Saved preprocessed file: data/processed/sales_processed_20251211_1346.csv
+Starting preprocessing...
+Processing file: data/raw/sales_20251211_1346.csv
+Loaded 5 rows with columns: ['timestamp', 'model', 'sales']
+Dropped 'timestamp' column
+After dropping NaN sales: 5 rows
+Encoded 'model' column as integer
+All columns are integer type: True
+Final preprocessed data: 5 rows, columns: ['model', 'sales']
+Column types: {'model': dtype('int8'), 'sales': dtype('int64')}
+Saved preprocessed file: data/processed/sales_processed_20251211_1346.csv
+✓ Preprocessing complete: data/processed/sales_processed_20251211_1346.csv
+[2025-12-11 13:46:29] Script completed successfully

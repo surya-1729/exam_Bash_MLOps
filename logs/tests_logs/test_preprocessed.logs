@@ -1,0 +1,34 @@
+
+=== Test started (2025-12-11 12:16:32) ===
+Starting structure test for the preprocessed file
+Loaded file: data/processed/sales_processed_20251210_2124.csv
+The file contains a 'timestamp' column
+
+=== Test started (2025-12-11 12:32:22) ===
+Starting structure test for the preprocessed file
+Loaded file: data/processed/sales_processed_20251210_2124.csv
+The file contains a 'timestamp' column
+
+=== Test started (2025-12-11 12:33:55) ===
+Starting structure test for the preprocessed file
+Loaded file: data/processed/sales_processed_20251211_1333.csv
+Timestamp column check: OK (not present)
+The file contains non-integer columns
+
+=== Test started (2025-12-11 12:46:35) ===
+Starting structure test for the preprocessed file
+Loaded file: data/processed/sales_processed_20251211_1346.csv
+Timestamp column check: OK (not present)
+Integer type check: OK (all columns are integers)
+Test completed for the preprocessed file.
+=== Test ended ===
+
+
+=== Test started (2025-12-11 12:47:08) ===
+Starting structure test for the preprocessed file
+Loaded file: data/processed/sales_processed_20251211_1346.csv
+Timestamp column check: OK (not present)
+Integer type check: OK (all columns are integers)
+Test completed for the preprocessed file.
+=== Test ended ===
+

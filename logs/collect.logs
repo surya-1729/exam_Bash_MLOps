@@ -22,3 +22,51 @@
 [2025-12-10 21:24:33] INFO: Retrieved sales data for model rx6700: 11
 [2025-12-10 21:24:33] Collection complete. File created with 6 lines
 [2025-12-10 21:24:33] === Data collection finished ===
+[2025-12-11 13:32:35] Querying model: rtx3060
+[2025-12-11 13:32:35] INFO: Retrieved sales data for model rtx3060: 
+[2025-12-11 13:32:35] Querying model: rtx3070
+[2025-12-11 13:32:35] INFO: Retrieved sales data for model rtx3070: 
+[2025-12-11 13:32:35] Querying model: rtx3080
+[2025-12-11 13:32:35] INFO: Retrieved sales data for model rtx3080: 
+[2025-12-11 13:32:35] Querying model: rtx3090
+[2025-12-11 13:32:35] INFO: Retrieved sales data for model rtx3090: 
+[2025-12-11 13:32:35] Querying model: rx6700
+[2025-12-11 13:32:35] INFO: Retrieved sales data for model rx6700: 
+[2025-12-11 13:32:35] Collection complete. File created with 6 lines
+[2025-12-11 13:32:35] === Data collection finished ===
+[2025-12-11 13:33:40] Querying model: rtx3060
+[2025-12-11 13:33:40] INFO: Retrieved sales data for model rtx3060: 8
+[2025-12-11 13:33:40] Querying model: rtx3070
+[2025-12-11 13:33:40] INFO: Retrieved sales data for model rtx3070: 1
+[2025-12-11 13:33:40] Querying model: rtx3080
+[2025-12-11 13:33:40] INFO: Retrieved sales data for model rtx3080: 1
+[2025-12-11 13:33:40] Querying model: rtx3090
+[2025-12-11 13:33:40] INFO: Retrieved sales data for model rtx3090: 14
+[2025-12-11 13:33:40] Querying model: rx6700
+[2025-12-11 13:33:40] INFO: Retrieved sales data for model rx6700: 3
+[2025-12-11 13:33:40] Collection complete. File created with 6 lines
+[2025-12-11 13:33:40] === Data collection finished ===
+[2025-12-11 13:33:44] Querying model: rtx3060
+[2025-12-11 13:33:44] INFO: Retrieved sales data for model rtx3060: 8
+[2025-12-11 13:33:44] Querying model: rtx3070
+[2025-12-11 13:33:44] INFO: Retrieved sales data for model rtx3070: 1
+[2025-12-11 13:33:44] Querying model: rtx3080
+[2025-12-11 13:33:44] INFO: Retrieved sales data for model rtx3080: 1
+[2025-12-11 13:33:44] Querying model: rtx3090
+[2025-12-11 13:33:44] INFO: Retrieved sales data for model rtx3090: 14
+[2025-12-11 13:33:44] Querying model: rx6700
+[2025-12-11 13:33:44] INFO: Retrieved sales data for model rx6700: 3
+[2025-12-11 13:33:44] Collection complete. File created with 6 lines
+[2025-12-11 13:33:44] === Data collection finished ===
+[2025-12-11 13:46:29] Querying model: rtx3060
+[2025-12-11 13:46:29] INFO: Retrieved sales data for model rtx3060: 5
+[2025-12-11 13:46:29] Querying model: rtx3070
+[2025-12-11 13:46:29] INFO: Retrieved sales data for model rtx3070: 12
+[2025-12-11 13:46:29] Querying model: rtx3080
+[2025-12-11 13:46:29] INFO: Retrieved sales data for model rtx3080: 12
+[2025-12-11 13:46:29] Querying model: rtx3090
+[2025-12-11 13:46:29] INFO: Retrieved sales data for model rtx3090: 4
+[2025-12-11 13:46:29] Querying model: rx6700
+[2025-12-11 13:46:29] INFO: Retrieved sales data for model rx6700: 15
+[2025-12-11 13:46:29] Collection complete. File created with 6 lines
+[2025-12-11 13:46:29] === Data collection finished ===

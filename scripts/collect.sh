@@ -30,6 +30,7 @@ log_message() {
 # Collect data for each model
 for MODEL in "${MODELS[@]}"; do
 
+    log_message "Querying model: $MODEL"
     RESPONSE=$(curl -s "$API_URL/$MODEL")
     TIMESTAMP=$(date -d '+1 hour' '+%Y-%m-%d %H:%M:%S')
     echo "$TIMESTAMP,$MODEL,$RESPONSE" >> "$OUTPUT_FILE"
@@ -37,7 +38,15 @@ for MODEL in "${MODELS[@]}"; do
 
 done
 
-# Completion message
-echo "Data collection complete. Output saved to $OUTPUT_FILE"
-echo "Logs saved to $LOG_FILE"
-echo "-----------------------------------------------------"
+# Verify file was created
+if [ -f "$OUTPUT_FILE" ]; then
+    line_count=$(wc -l < "$OUTPUT_FILE")
+    log_message "Collection complete. File created with $line_count lines"
+    log_message "=== Data collection finished ==="
+else
+    log_message "ERROR: Output file was not created"
+    log_message "=== Data collection failed ==="
+    exit 1
+fi
+
+echo "Data collection complete. Output: $OUTPUT_FILE"

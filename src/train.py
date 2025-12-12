@@ -25,8 +25,8 @@ from datetime import datetime
 # -----------------------------
 # Directories
 # -----------------------------
-PROCESSED_DIR = "../data/processed"
-MODEL_DIR = "../model"
+PROCESSED_DIR = "data/processed"
+MODEL_DIR = "model"
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 # -----------------------------

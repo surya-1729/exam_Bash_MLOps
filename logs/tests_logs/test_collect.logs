@@ -1,0 +1,50 @@
+
+=== Test started (2025-12-11 12:16:30) ===
+Starting CSV structure test
+CSV file loaded with 5 rows and 3 columns
+Test passed: The CSV is valid.
+End of CSV structure test
+=== Test completed ===
+
+
+=== Test started (2025-12-11 12:32:21) ===
+Starting CSV structure test
+CSV file loaded with 5 rows and 3 columns
+Test passed: The CSV is valid.
+End of CSV structure test
+=== Test completed ===
+
+
+=== Test started (2025-12-11 12:32:44) ===
+Starting CSV structure test
+CSV file loaded with 5 rows and 3 columns
+Test failed with error: The 'sales' column must not contain any NaN values
+assert not np.True_
+ +  where np.True_ = any()
+ +    where any = 0    True\n1    True\n2    True\n3    True\n4    True\nName: sales, dtype: bool.any
+ +      where 0    True\n1    True\n2    True\n3    True\n4    True\nName: sales, dtype: bool = isnull()
+ +        where isnull = 0   NaN\n1   NaN\n2   NaN\n3   NaN\n4   NaN\nName: sales, dtype: float64.isnull
+
+=== Test started (2025-12-11 12:33:54) ===
+Starting CSV structure test
+CSV file loaded with 5 rows and 3 columns
+Test passed: The CSV is valid.
+End of CSV structure test
+=== Test completed ===
+
+
+=== Test started (2025-12-11 12:46:34) ===
+Starting CSV structure test
+CSV file loaded with 5 rows and 3 columns
+Test passed: The CSV is valid.
+End of CSV structure test
+=== Test completed ===
+
+
+=== Test started (2025-12-11 12:47:07) ===
+Starting CSV structure test
+CSV file loaded with 5 rows and 3 columns
+Test passed: The CSV is valid.
+End of CSV structure test
+=== Test completed ===
+
